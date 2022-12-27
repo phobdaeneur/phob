@@ -66,4 +66,10 @@ export default [
     start: new Date("2022-12-05"),
     end: new Date("2022-12-05"),
   },
+  {
+    title: "Day off",
+    allDay: true,
+    start: new Date("2022-12-06"),
+    end: new Date("2022-12-07"),
+  },
 ];

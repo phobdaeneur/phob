@@ -15,7 +15,7 @@ function Home({ mode }: Props) {
           style={{ backgroundImage: `url(${bgDark})` }}
           className=" w-screen h-screen bg-left-bottom bg-cover flex flex-col items-center justify-center"
         >
-          <label className=" text-2xl text-[#f5f5f5] font-mono tracking-widest pt-36">
+          <label className=" text-2xl text-[#f5f5f5] font-mono tracking-widest pt-36 px-5">
             P H O B D A W N E U R.
           </label>
           <label className=" text-base text-[#f5f5f5] font-mono indent-8 px-5 md:px-10">
@@ -38,7 +38,7 @@ function Home({ mode }: Props) {
           style={{ backgroundImage: `url(${bgWhite})` }}
           className=" w-screen h-screen bg-cover bg-center flex flex-col items-center justify-end"
         >
-          <label className=" text-xl text-[#1c1c1c] font-mono tracking-widest">
+          <label className=" text-xl text-[#1c1c1c] font-mono tracking-widest px-5">
             P H O B D A W N E U R.
           </label>
           <label className=" text-sm text-[#1c1c1c] font-mono indent-8 pb-20 px-14">
@@ -62,7 +62,7 @@ function Home({ mode }: Props) {
           style={{ backgroundImage: `url(${bgColor})` }}
           className=" w-screen h-screen bg-right-bottom bg-cover flex flex-col items-center justify-start"
         >
-          <label className=" text-xl text-[#1c1c1c] font-mono tracking-widest pt-40">
+          <label className=" text-xl text-[#1c1c1c] font-mono tracking-widest pt-40 px-5">
             P H O B D A W N E U R.
           </label>
           <label className=" text-sm text-[#1c1c1c] font-mono indent-8 px-6">
